@@ -1,0 +1,45 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #f3f3f3;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  height: 100%;
+  margin: 0;
+  overflow-y: scroll;
+}
+
+body > div {
+  overflow: auto;
+  position: relative;
+}
+
+strong { font-weight: 700; }
+p { margin-top: 0; }
+a { color: #666; }
+a:hover { color: #ccc; }
+
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 2rem auto;
+  max-width: 590px;
+  width: 95%;
+}
+
+.appContainer {
+  background-color: #fff;
+  border: 1px solid #fafafa;
+  border-radius: .25rem;
+  padding: 0;
+}
+
+.tweetList {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}

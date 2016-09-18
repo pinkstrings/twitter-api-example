@@ -1,0 +1,58 @@
+.tweetHeader {
+  cursor: pointer;
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.tweetHeader a {
+  text-decoration: none;
+}
+
+.tweetHeader > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.imgContainer {
+  order: 0;
+  max-width: 48px;
+  flex-grow: 1;
+}
+
+.imgContainer > img {
+  height: auto;
+  width: 100%;
+}
+
+.metaContainer {
+  order: 1;
+  flex-grow: 12;
+  padding: 0 .5rem;
+}
+
+.metaContainer > h2,
+.metaContainer > h3 {
+  width: 100%;
+  margin: 0;
+}
+
+.metaContainer > h2 {
+  margin-top: .25rem;
+  font-size: 1.25rem;
+}
+
+.metaContainer > h3 {
+  color: #a7a7a7;
+  font-size: .9rem;
+  line-height: .8rem;
+}
+
+
+.tweetHeader:hover,
+.tweetHeader:hover .metaContainer > h3 {
+  color: #ccc;
+}
+
+.tweetHeader:hover .metaContainer > h3 {
+  text-decoration: underline;
+}

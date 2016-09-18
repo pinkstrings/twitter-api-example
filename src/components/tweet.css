@@ -1,0 +1,8 @@
+.tweet {
+  box-sizing: border-box;
+  flex-direction: column;
+  list-style: none;
+  padding: 1rem 2rem;
+  width: 100%;
+  border-top: 1px solid #eaeaea;
+}

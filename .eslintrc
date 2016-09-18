@@ -1,0 +1,21 @@
+{
+  "ecmaFeatures": {
+    "jsx": true,
+    "modules": true
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "extends": "pomo",
+  "parser": "babel-eslint",
+  "globals": {
+    "__CLIENT__": true,
+    "__SERVER__": true,
+    "Promise": true
+  },
+  "plugins": [
+    "babel",
+    "react"
+  ]
+}

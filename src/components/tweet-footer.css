@@ -1,0 +1,22 @@
+.tweetFooter {
+  font-size: .9rem;
+}
+
+.tweetFooter > a {
+  color: #000;
+  margin: 0;
+  text-decoration: none;
+}
+
+.tweetFooter > a > svg {
+  fill: #000;
+  height: 1rem;
+  position: relative;
+  top: .19rem;
+}
+
+.tweetFooter > a:hover,
+.tweetFooter > a:hover > svg {
+  color: #ccc;
+  fill: #ccc;
+}
